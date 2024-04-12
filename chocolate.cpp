@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main(void) {
   // your code goes here
   int t, x, y, z;
   cin >> t;
