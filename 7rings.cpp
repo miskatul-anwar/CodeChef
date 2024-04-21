@@ -1,15 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
   // your code goes here
   int a, b, t, x, count;
   cin >> t;
-  while (t--) {
+  while (t--)
+  {
     count = 0;
     cin >> a >> b;
     x = a * b;
-    while (x != 0) {
+    while (x != 0)
+    {
       x /= 10;
       count++;
     }
