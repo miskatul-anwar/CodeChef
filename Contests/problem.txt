@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="https://cdn.codechef.com/favicon.ico" type="image/x-icon" />
+  <title> Practice Coding Problem - CodeChef</title>
+  <meta charset="utf-8" />
+  <meta name="description" content='Learn to code for free using our beginner friendly and interactive learning courses. Get all the practical skills required to excel at computer science. Start learning with CodeChef today and unlock your potential as a developer!' />
+  <meta name="og:image" content="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png" />
+  <meta name="og:type" content="website" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.codechef.com/problems/ABCC2">
+
+  <script>
+
+    if (
+      (['pro', 'contests'].includes(window.location.pathname.split('/').filter(Boolean).pop())) ||
+      (['learn', 'games', 'viewsolution',
+        'submit', 'practice', 'dashboard', 'getting-started', 'skill-test', 'college-program', 'practice-old',
+        'roadmap', 'blogs', 'roadmaps', 'blogs', 'skill-tests'
+      ].includes(window.location.pathname.split('/').filter(Boolean)[0])) ||
+      (['submit'].includes(window.location.pathname.split('/').filter(Boolean)[1])) ||
+      (['status'].includes(window.location.pathname.split('/').filter(Boolean).slice(-2, -1).pop())) || [
+        // Regex to match the practice and contest submit routes
+        /^\/(submit\/([A-Z]+[A-Z0-9_]*)+|problems\/([A-Z]+[A-Z0-9_]*)+|([A-Z]+[A-Z0-9_]*)+\/submit\/([A-Z]+[A-Z0-9_]*)+|([A-Z]+[A-Z0-9_]*)+\/problems\/([A-Z]+[A-Z0-9_]*)+)$/
+      ].some((regexp) => (regexp.test(window.location.pathname)))
+    ) {
+      const metaElement = document.createElement('meta');
+      metaElement.setAttribute('name', 'viewport');
+      metaElement.setAttribute('content', 'width=device-width, initial-scale=1');
+      document.head.appendChild(metaElement);
+    }
+
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TV5X2M');
+  </script>
+  <script type="module" crossorigin src="https://static.codechef.com/build/react2/assets/index-ZuaMbRTR.js"></script>
+  <link rel="modulepreload" crossorigin href="https://static.codechef.com/build/react2/assets/ace-qigkNPJw.js">
+  <link rel="modulepreload" crossorigin href="https://static.codechef.com/build/react2/assets/vendor-LozAV3W8.js">
+  <link rel="stylesheet" crossorigin href="https://static.codechef.com/build/react2/assets/index-CWoqsL24.css">
+</head>
+
+<body style="background:#1d1e23;">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+    if (window.location.pathname.split('/')[1] === 'pro') {
+      const razorPay = document.createElement('script');
+      razorPay.setAttribute('src', 'https://checkout.razorpay.com/v1/checkout.js');
+      document.head.appendChild(razorPay);
+
+      // const instamojo = document.createElement('script');
+      // instamojo.setAttribute('src', 'https://js.instamojo.com/v1/checkout.js');
+      // document.head.appendChild(instamojo);
+
+    }
+    if (window.location.pathname.split('/')[1] !== 'games') {
+      const scriptElement = document.createElement('script');
+      scriptElement.setAttribute('src',
+        "/sites/all/modules/codechef_alerts/codechef_alerts.js?v=649c43b6894169b33b5557aa0374459d"
+      );
+      document.body.appendChild(scriptElement);
+    }
+  </script>
+  <script type="text/javascript"
+    src="/sites/all/themes/mallow/src/js/cookies.js?v=c0c952b5f5af42bd78098f00c77cfa63"></script>
+</body>
+
+</html>
+<script>
+    window.CDN_URL = 'https://cdn.codechef.com';
+    window.csrfToken = "798d25ce1ca5846df798f615850dc5b4568fc1c2144fac7a9d19049b1215ca23";
+    window.APPS_URL = 'https://www.codechef-apps.com';
+    try {
+        window.codeChefUserData = {"status":"success","user":{"username":null,"uid":0,"profileImage":null,"profileImagePath":"https:\/\/cdn.codechef.com\/sites\/all\/themes\/abessive\/images\/user_default_thumb.jpg","oauth_buttons":null,"oauthData":null,"isUserTeam":false,"html_handle":"","userRatingStar":"0","userRatingStarColor":"black","isAdmin":false,"isHYCAdmin":false,"isPremiumUser":true,"isVerifiedUser":true,"user_consented_privacy_policy_version":null,"user_consented_privacy_policy_on":null,"current_privacy_policy_version":"9721896","visitedContests":[],"rating":-1,"userStarHtml":"","proDiscount":null,"theme":"dark","fullName":null,"pro_plan":"college","sale":{"isSaleOngoing":false,"saleDaysLeft":-107},"isUserPartOfAnyUserGroup":false},"time":1713975897,"ip":"103.85.158.139","adStrip":null};
+    } catch (e) {
+        window.codeChefUserData = {};
+    }
+</script>
